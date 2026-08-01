@@ -10,7 +10,7 @@ from flask import Flask, request, render_template_string, send_from_directory
 app = Flask(__name__)
 
 # 1. Cohere Kurulumu (API Anahtarınızı yazın)
-co = cohere.ClientV2(os.getenv("COHERE_API_KEY"))
+co = cohere.ClientV2()
 
 # Önbelleğe alınmış hafif vektörleri yükle
 with open("vektorler.pkl", "rb") as f:
