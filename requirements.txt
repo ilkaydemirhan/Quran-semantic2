@@ -1,5 +1,5 @@
 flask
-sentence-transformers
+cohere
 scikit-learn
 pandas
 numpy
